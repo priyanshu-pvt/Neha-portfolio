@@ -20,7 +20,25 @@
   --grotesk: 'Space Grotesk', sans-serif;
   --bebas: 'Bebas Neue', sans-serif;
 }
-
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 0px;
+  box-shadow: 0 0 10px var(--glow);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-mid);
+  box-shadow: 0 0 16px var(--glow);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--blue) var(--black);
+}
 html { scroll-behavior: smooth; }
 
 body {
