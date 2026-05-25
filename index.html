@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neha Karne — Portfolio</title>
+    <link rel="icon" href="/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#home" class="nav-logo">NK<span class="blink">_</span></a>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="mailto:nehakarne4@gmail.com" class="nav-cta">Hire Me</a>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="home-content">
+        <p class="home-eyebrow" data-aos="fade-up" data-aos-delay="0">
+          B.Sc. Data Science · Hyderabad, IN
+        </p>
+        <h1 class="home-heading" data-aos="fade-up" data-aos-delay="100">
+          <span class="heading-line">Neha</span>
+          <span class="heading-line outline">Karne</span>
+        </h1>
+        <div class="home-role" data-aos="fade-up" data-aos-delay="200">
+          <span class="role-prefix">></span>
+          <span id="typed-el"></span>
+        </div>
+        <p class="home-desc" data-aos="fade-up" data-aos-delay="300">
+          Versatile professional with a foundation in Data Science and
+          experience in Quality Analysis and Document Validation. Adaptable,
+          detail-oriented, and effective in both technical and operational
+          roles.
+        </p>
+        <div class="home-btns" data-aos="fade-up" data-aos-delay="400">
+          <a href="#about" class="btn-solid">View Profile</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+        <div class="home-metrics" data-aos="fade-up" data-aos-delay="500">
+          <div class="metric">
+            <span class="metric-num">8.35</span>
+            <span class="metric-label">CGPA</span>
+          </div>
+          <div class="metric-sep"></div>
+          <div class="metric">
+            <span class="metric-num">100%</span>
+            <span class="metric-label">SSC Score</span>
+          </div>
+          <div class="metric-sep"></div>
+          <div class="metric">
+            <span class="metric-num">3+</span>
+            <span class="metric-label">Yrs Study</span>
+          </div>
+        </div>
+      </div>
+      <div class="home-scroll-hint" data-aos="fade-up" data-aos-delay="600">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-label" data-aos="fade-right">02 — About</div>
+      <h2 class="section-heading" data-aos="fade-up">Who I Am</h2>
+
+      <div class="about-layout">
+        <div class="about-photo-col" data-aos="fade-right" data-aos-delay="100">
+          <div class="photo-wrap">
+            <img src="/DP.png" alt="Neha Karne" />
+            <div class="photo-ring"></div>
+            <div class="photo-tag">Analytics · Quality · Operations</div>
+          </div>
+          <div class="availability-pill">
+            <span class="avail-dot"></span> Open to Opportunities
+          </div>
+        </div>
+
+        <div class="about-text-col">
+          <p class="about-intro" data-aos="fade-up" data-aos-delay="150">
+            Detail-oriented graduate with a systematic mindset, strong
+            analytical abilities, and a focus on accuracy. Skilled in Data
+            Science fundamentals, quality analysis, validation, and structured
+            problem-solving.
+          </p>
+          <p class="about-body" data-aos="fade-up" data-aos-delay="200">
+            My background in Data Science has strengthened my analytical
+            thinking and structured approach to problem-solving. I am
+            experienced in validation, quality checks, and clear communication,
+            with the ability to work effectively in both technical and
+            operational environments.
+          </p>
+
+          <div class="info-table" data-aos="fade-up" data-aos-delay="250">
+            <div class="info-row">
+              <span class="info-k">Name</span>
+              <span class="info-v">Neha Karne</span>
+            </div>
+            <div class="info-row">
+              <span class="info-k">Degree</span>
+              <span class="info-v">B.Sc. Data Science</span>
+            </div>
+            <div class="info-row">
+              <span class="info-k">University</span>
+              <span class="info-v">Satavahana University</span>
+            </div>
+            <div class="info-row">
+              <span class="info-k">Location</span>
+              <span class="info-v">Hyderabad, Telangana</span>
+            </div>
+            <div class="info-row">
+              <span class="info-k">Email</span>
+              <span class="info-v">nehakarne4@gmail.com</span>
+            </div>
+            <div class="info-row">
+              <span class="info-k">Languages</span>
+              <span class="info-v">English · Telugu</span>
+            </div>
+          </div>
+
+          <div class="edu-timeline" data-aos="fade-up" data-aos-delay="300">
+            <p class="edu-timeline-label">Education</p>
+            <div class="edu-entry">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <strong>B.Sc. Data Science</strong>
+                <span>Satavahana University · 2022-2025 · 8.35%</span>
+              </div>
+            </div>
+            <div class="edu-entry">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <strong>Intermediate — MEC</strong>
+                <span>Srivani Junior College · 2020-2022 · 92%</span>
+              </div>
+            </div>
+            <div class="edu-entry">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <strong>SSC</strong>
+                <span>SSSM High School · 2019-2020 · 100%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-label" data-aos="fade-right">03 — Skills</div>
+      <h2 class="section-heading" data-aos="fade-up">Capabilities</h2>
+
+      <div class="skills-layout">
+        <div class="skills-left">
+          <p class="skills-sub" data-aos="fade-up" data-aos-delay="50">
+            Technical proficiency levels based on academic training and applied
+            practice.
+          </p>
+          <div class="bar-list">
+            <div
+              class="bar-item"
+              data-val="90"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="bar-meta">
+                <span>Document Validation & Verification</span
+                ><span class="bar-pct">0%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill"></div></div>
+            </div>
+            <div
+              class="bar-item"
+              data-val="85"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div class="bar-meta">
+                <span>Quality Analysis & QC</span
+                ><span class="bar-pct">0%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill"></div></div>
+            </div>
+            <div
+              class="bar-item"
+              data-val="82"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="bar-meta">
+                <span>MS Office (Excel, Word)</span
+                ><span class="bar-pct">0%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill"></div></div>
+            </div>
+            <div
+              class="bar-item"
+              data-val="78"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <div class="bar-meta">
+                <span>Data Entry & Analysis</span
+                ><span class="bar-pct">0%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill"></div></div>
+            </div>
+            <div
+              class="bar-item"
+              data-val="74"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="bar-meta">
+                <span>Basic Auditing</span><span class="bar-pct">0%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill"></div></div>
+            </div>
+            <div
+              class="bar-item"
+              data-val="80"
+              data-aos="fade-up"
+              data-aos-delay="350"
+            >
+              <div class="bar-meta">
+                <span>Problem-Solving & Analytics</span
+                ><span class="bar-pct">0%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-right">
+          <div class="soft-block" data-aos="fade-left" data-aos-delay="100">
+            <p class="block-label">Soft Skills</p>
+            <div class="soft-pills">
+              <span class="pill">English Communication</span>
+              <span class="pill">Attention to Detail</span>
+              <span class="pill">Adaptability</span>
+              <span class="pill">Time Management</span>
+              <span class="pill">Team Collaboration</span>
+              <span class="pill">Analytical Thinking</span>
+            </div>
+          </div>
+          <div class="tools-block" data-aos="fade-left" data-aos-delay="200">
+            <p class="block-label">Tools & Platforms</p>
+            <div class="tool-cards">
+              <div class="tool-card">
+                <span class="tool-icon">⬡</span>
+                <span>MS Excel</span>
+              </div>
+              <div class="tool-card">
+                <span class="tool-icon">⬡</span>
+                <span>MS Word</span>
+              </div>
+              <div class="tool-card">
+                <span class="tool-icon">⬡</span>
+                <span>Google Sheets</span>
+              </div>
+              <div class="tool-card">
+                <span class="tool-icon">⬡</span>
+                <span>Data Validation</span>
+              </div>
+              <div class="tool-card">
+                <span class="tool-icon">⬡</span>
+                <span>QA Processes</span>
+              </div>
+              <div class="tool-card">
+                <span class="tool-icon">⬡</span>
+                <span>Documentation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-label" data-aos="fade-right">04 — Contact</div>
+      <h2 class="section-heading" data-aos="fade-up">Let's Connect</h2>
+
+      <div class="contact-layout">
+        <div class="contact-left" data-aos="fade-right" data-aos-delay="100">
+          <p class="contact-intro">
+            Open to full-time and contract roles in Quality Analysis, Document
+            Validation, Data Operations, and adjacent domains — IT or non-IT.
+          </p>
+          <p class="contact-note">Response guaranteed within 24 hours.</p>
+          <div class="contact-social">
+            <a
+              href="https://www.linkedin.com/in/neha-karne-822190290/"
+              target="_blank"
+              class="social-btn"
+              >LinkedIn ↗</a
+            >
+          </div>
+        </div>
+        <div class="contact-right">
+          <a
+            href="mailto:nehakarne4@gmail.com"
+            class="contact-card"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div class="cc-icon">✉</div>
+            <div class="cc-body">
+              <span class="cc-label">Email</span>
+              <span class="cc-val">nehakarne4@gmail.com</span>
+            </div>
+            <div class="cc-arrow">→</div>
+          </a>
+          <a
+            href="tel:+916303770571"
+            class="contact-card"
+            data-aos="fade-up"
+            data-aos-delay="220"
+          >
+            <div class="cc-icon">✆</div>
+            <div class="cc-body">
+              <span class="cc-label">Phone</span>
+              <span class="cc-val">+91 63037 70571</span>
+            </div>
+            <div class="cc-arrow">→</div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/neha-karne-822190290/"
+            target="_blank"
+            class="contact-card"
+            data-aos="fade-up"
+            data-aos-delay="290"
+          >
+            <div class="cc-icon">in</div>
+            <div class="cc-body">
+              <span class="cc-label">LinkedIn</span>
+              <span class="cc-val">neha-karne-822190290</span>
+            </div>
+            <div class="cc-arrow">→</div>
+          </a>
+          <div
+            class="contact-card static"
+            data-aos="fade-up"
+            data-aos-delay="360"
+          >
+            <div class="cc-icon">⌖</div>
+            <div class="cc-body">
+              <span class="cc-label">Location</span>
+              <span class="cc-val">Hyderabad, Telangana, IN</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="hire-modal" id="hire-modal">
+      <div class="hire-modal-header">
+        <div class="hire-modal-title">
+          <span>Get In Touch</span>
+          Reach Out
+        </div>
+        <button class="modal-close" id="modal-close">✕</button>
+      </div>
+      <p class="hire-modal-desc">
+      Open to full-time, contract, and freelance opportunities across technology and operations roles, with experience in QA, data management, and process support.
+      </p>
+      <div class="hire-options">
+        <a href="tel:+916303770571" class="hire-option">
+          <span class="hire-option-icon call"><i class="fa-solid fa-phone"></i></span>
+          <div class="hire-option-body">
+            <span class="hire-option-label">Phone</span>
+            <span class="hire-option-val">+91 63037 70571</span>
+          </div>
+          <span class="hire-option-action">Call ↗</span>
+        </a>
+        <a
+          href="https://wa.me/916303770571?text=Hi%20Neha%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect."
+          target="_blank"
+          class="hire-option"
+        >
+          <span class="hire-option-icon wa"><i class="fab fa-whatsapp"></i></span>
+          <div class="hire-option-body">
+            <span class="hire-option-label">WhatsApp</span>
+            <span class="hire-option-val">+91 63037 70571</span>
+          </div>
+          <span class="hire-option-action">Message ↗</span>
+        </a>
+        <div class="hire-option" id="copy-email-btn">
+          <span class="hire-option-icon email"><i class="fa-solid fa-at"></i></span>
+          <div class="hire-option-body">
+            <span class="hire-option-label">Email</span>
+            <span class="hire-option-val">nehakarne4@gmail.com</span>
+          </div>
+          <span class="hire-option-action">Copy</span>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/neha-karne-822190290/"
+          target="_blank"
+          class="hire-option"
+        >
+          <span class="hire-option-icon li"><i class="fa-brands fa-linkedin-in"></i></span>
+          <div class="hire-option-body">
+            <span class="hire-option-label">LinkedIn</span>
+            <span class="hire-option-val">neha-karne-822190290</span>
+          </div>
+          <span class="hire-option-action">Open ↗</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="copy-toast" id="copy-toast">Email copied to clipboard</div>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">NK<span class="blink">_</span></div>
+        <div class="footer-mid">
+          <nav class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <p class="footer-copy">
+            © <span id="footer-year"></span> Neha Karne. All rights reserved.
+          </p>
+        </div>
+        <div class="footer-right">
+          <span class="footer-status"
+            ><span class="avail-dot"></span> Available for roles</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
